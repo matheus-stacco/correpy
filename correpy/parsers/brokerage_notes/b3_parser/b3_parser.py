@@ -30,7 +30,7 @@ class B3Parser(BaseBrokerageNoteParser):
     sell_transaction_indicator_on_brokerage_note = "V"
     first_column_transactions = "Q"
     transaction_columns_index = {
-        "transaction_type": 1,
+        "transaction_type": 2,
         "start_short_name": 3,
         "end_short_name": -4,
         "unit_value": -3,
